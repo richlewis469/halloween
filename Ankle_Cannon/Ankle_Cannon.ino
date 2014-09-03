@@ -20,11 +20,7 @@ void loop()
   // else - Loop
   
   digitalWrite(Relay1, HIGH); //Turn off relay 
-  delay(relayDelay);
-  digitalWrite(Relay2, HIGH); //Turn off relay 
-  delay(relayDelay); 
+  delay(relayDelay * 5);
   digitalWrite(Relay1, LOW); //Turn on relay
-  delay(relayDelay);
-  digitalWrite(Relay2, LOW); 
-  delay(relayDelay); 
+  delay(relayDelay/4);
 } 
